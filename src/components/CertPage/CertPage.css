@@ -1,0 +1,97 @@
+.cert-page {
+    background: rgb(246, 230, 210);
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .nav-bar {
+    width: 100%;
+    background: rgb(241, 163, 20);
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #fixedHeader {
+    background: #263e64;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #fixedHeader a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  #fixedHeader a:hover {
+    text-decoration: underline;
+  }
+  
+  #down {
+    margin: 100px 20px; /* Adjusted margin to account for the fixed header */
+    padding: 20px;
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #263e64;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    width: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }
+  
+  .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .card-button {
+    margin-top: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
