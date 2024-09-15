@@ -37,7 +37,7 @@ const CertPage = () => {
     <div className="cert-page">
       <nav className="nav-bar">
         <header id="fixedHeader">
-          <a className="btn btn-light" href="mycv.php#home">Go back</a>
+          <a className="btn btn-light" href="https://sakli-adem.github.io/CV-React/#certif">Go back</a>
         </header>
       </nav>
 
